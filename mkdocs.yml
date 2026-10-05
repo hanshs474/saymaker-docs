@@ -1,0 +1,29 @@
+site_name: SayMaker API and SDKs
+site_url: https://saymaker.readthedocs.io/
+repo_url: https://github.com/hanshs474/saymaker-docs
+site_description: Generate images and video on SayMaker from code. One API key for Veo 3.1, Kling 3.0, Seedance 2.0, Nano Banana 2, GPT Image 2.5 and more; clients for 14 languages, an MCP server and agent framework integrations.
+theme: readthedocs
+nav:
+  - Overview: index.md
+  - HTTP API: http.md
+  - Models: models.md
+  - SDKs:
+      - Python: sdk/python.md
+      - JavaScript and TypeScript: sdk/typescript.md
+      - Go: sdk/go.md
+      - Rust: sdk/rust.md
+      - Java and Kotlin: sdk/java.md
+      - .NET: sdk/dotnet.md
+      - PHP: sdk/php.md
+      - Ruby: sdk/ruby.md
+      - Dart and Flutter: sdk/dart.md
+      - Elixir: sdk/elixir.md
+      - Clojure: sdk/clojure.md
+      - R: sdk/r.md
+      - Lua: sdk/lua.md
+      - D: sdk/d.md
+  - Integrations:
+      - MCP server (Claude, Cursor, Gemini CLI): integrations/mcp.md
+      - LangChain: integrations/langchain.md
+      - Haystack: integrations/haystack.md
+      - Vercel AI SDK: integrations/ai-sdk.md
