@@ -27,3 +27,6 @@ nav:
       - LangChain: integrations/langchain.md
       - Haystack: integrations/haystack.md
       - Vercel AI SDK: integrations/ai-sdk.md
+
+exclude_docs: |
+  SUMMARY.md
